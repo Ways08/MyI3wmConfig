@@ -1,12 +1,22 @@
 # MyI3wmConfig
 It is i3wm config
-if you installing arch, you can:
-chmod +x arch.sh
-./arch.sh
-and you install all packages for i3wm + CONFIGURATION FOR THESE
-arch.sh file has copying dotfiles script, if you are using another disributive, you can remove apps installing in arch
+Installation tutorial:
 
-Screenshots:
+git clone https://github.com/Ways08/MyI3wmConfig.git
+
+chmod +x arch.sh
+
+# If you usinsg another distr, you can remove arch apps installation (all under the comment: #arch apps installation)
+
+./arch.sh
+
+# You are install all packages for i3wm + CONFIGURATION FOR THESE
+# arch.sh file has copying dotfiles script 
+
+reboot
+
+After reboot:
+
 ![Alt text](https://raw.githubusercontent.com/Ways08/MyI3wmConfig/main/Screenshot%20_1.png "Optional title")
 
 With applications:
