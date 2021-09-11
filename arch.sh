@@ -1,4 +1,6 @@
 #!/bin/bash
+
+#arch apps installation
 sudo pacman -Suy nvidia-dkms curl nvidia-utils rofi i3 i3-gaps xorg zsh xorg-xdm dmenu i3status i3lock ttf-dejavu alacritty
 cd /opt
 sudo git clone https://aur.archlinux.org/yay-git.git
