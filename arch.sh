@@ -26,7 +26,7 @@ rm -rf ~/.config/alacritty
 
 #copying
 mkdir -p ~/.config
-cp ~/MyI3wmConfig/zshcfg ~/.zshrs
+cp ~/MyI3wmConfig/zshcfg ~/.zshrc
 cp ~/MyI3wmConfig/i3 ~/.config/
 cp ~/MyI3wmConfig/gtk-* ~/.config/
 cp ~/MyI3wmConfig/nitrogen ~/.config/
