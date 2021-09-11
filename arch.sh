@@ -27,8 +27,11 @@ rm -rf ~/.config/alacritty
 #copying
 mkdir -p ~/.config
 mkdir -p ~/.themes
+mkdir -p ~/.icons
 tar -xf Nordic.tar.gz
+tar -xf Nordic-icons.tar.gz
 cp -r Nordic ~/.themes/
+cp -r ~/MyI3wmConfig/Nordic-Darker ~/.icons/
 cp ~/MyI3wmConfig/zshcfg ~/.zshrc
 cp ~/MyI3wmConfig/i3 ~/.config/
 cp ~/MyI3wmConfig/gtk-* ~/.config/
