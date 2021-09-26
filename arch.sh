@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #arch apps installation
-sudo pacman -Suy nvidia-dkms curl nvidia-utils rofi i3 polkit lxsession i3-gaps xorg zsh xorg-xdm dmenu i3status i3lock ttf-dejavu alacritty dhcpcd neofetch
+sudo pacman -Suy nvidia-dkms curl nvidia-utils pcmanfm rofi i3 polkit lxsession i3-gaps xorg zsh xorg-xdm dmenu i3status i3lock ttf-dejavu alacritty dhcpcd neofetch
 echo “exec i3” > ~/.xsession
 chmod +x ~/.xsession
 sudo systemctl enable xdm.service
